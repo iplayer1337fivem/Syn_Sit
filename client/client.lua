@@ -120,7 +120,7 @@ Citizen.CreateThread(function()
                         end 
                     else 
                         OXtargetOption = { 
-                        name = 'Seat Sytle',
+                        name = 'Seat Style',
                         icon = 'fas fa-chair',
                         label = Config.OxTargetLabel,
                         distance = 2.0,
@@ -209,7 +209,7 @@ Citizen.CreateThread(function()
                             thickness =  Config.objects[i].thickness,
                             debug = Config.objects[i].debug,
                             options = {},
-                            name = 'Seat Sytle',
+                            name = 'Seat style',
                             icon = 'fas fa-chair',
                             label = Config.OxTargetLabel,
                             distance = 2.0,
@@ -361,7 +361,7 @@ Citizen.CreateThread(function()
                         end 
                     else 
                         OXtargetOption = { 
-                        name = 'Seat Sytle',
+                        name = 'Seat style',
                         icon = 'fas fa-chair',
                         label = Config.OxTargetLabel,
                         distance = 2.0,
@@ -456,7 +456,7 @@ Citizen.CreateThread(function()
 
                             debugPoly = Config.objects[i].debug,
 
-                            name = 'Seat Sytle',
+                            name = 'Seat style',
                             icon = 'fas fa-chair',
                             label = Config.OxTargetLabel,
                             distance = 2.0,

@@ -17,19 +17,19 @@ Config.AllowChairCamera = true -- The Camera is usefull for times when a player 
 
 
 Config.AddHelpText = true -- display help text
-Config.WhileSittingHelpText = "[W] - Stand Up    \n     [F] - Change camera   \n     [SPACEBAR] - Menu"
+Config.WhileSittingHelpText = "[W] - Rejs dig    \n     [F] - Skift kamera   \n     [SPACEBAR] - Menu"
 Config.WhileSittinginfoFunction = function() lib.showTextUI(Config.WhileSittingHelpText,{icon = 'fa-solid fa-chair'}) Citizen.SetTimeout(5000, function() if Config.WhileSittinginfoFunction_IsOpenCheck() then Config.WhileSittinginfoFunctionCancel() end end) end --or ShowHelpNotification(Config.WhileSittingHelpText) or your funtion 
 Config.WhileSittinginfoFunctionCancel =  function() lib.hideTextUI() end-- 
 Config.WhileSittinginfoFunction_IsOpenCheck =  function() local isOpen, text = lib.isTextUIOpen() return isOpen, text  end-- 
 
-Config.OxContextMenuTitle = "Seat Animations " -- Title of context menu leave space at end for Concate
-Config.OxContextName = 'Sit Position ' -- label of options in
-Config.OxContextLabel = 'Seating Options ' -- label of options in
-Config.OxTargetLabel = 'Seating Options ' 
+Config.OxContextMenuTitle = "Sidde animationer " -- Title of context menu leave space at end for Concate
+Config.OxContextName = 'Side Position ' -- label of options in
+Config.OxContextLabel = 'Sidde muligheder ' -- label of options in
+Config.OxTargetLabel = 'Sidde menu ' 
 
 
 Config.AllowHeadingChange = true -- change heading by pressing A and D 
-Config.Debug = true -- commands "CreatePolyGonSeat" "SaveMyHeading" "fixchair"
+Config.Debug = false -- commands "CreatePolyGonSeat" "SaveMyHeading" "fixchair"
 --"CreatePolyGonSeat"
 Config.DebugMarkerColor = vector4(150, 150, 200, 255)
 
